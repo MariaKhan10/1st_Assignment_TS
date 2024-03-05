@@ -5,4 +5,4 @@
 
 let guestArr : string[] = ["Namra","Aqsa","Naheed"];
 
-guestArr.map((guest) => (console.log(`Dear ${guest} , You are invited to Dinner at my Home`)));
+guestArr.forEach((guest) => (console.log(`Dear ${guest} , You are invited to Dinner at my Home`)));
