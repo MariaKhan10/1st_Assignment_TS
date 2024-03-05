@@ -5,7 +5,6 @@
 
 let famous_person: string = "Albert Einstein";
 
-let message : string = "One should respect an honest person even if he expresses opinions differing from ones own.";
+let message : string = `${famous_person} once said, “One should respect an honest person even if he expresses opinions differing from ones own.”`;
 
-
-console.log(`${famous_person} once said,“${message}”`);
+console.log(message);
