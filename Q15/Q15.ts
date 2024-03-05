@@ -19,4 +19,4 @@ let newGuest :string = "Maryam";
 guestArr[guestArr.indexOf(canNotAttend)] = newGuest;
 
 
-guestArr.map((guest) => (console.log(`Dear ${guest} , You are invited to Dinner at my Home`)));
+guestArr.forEach((guest) => (console.log(`Dear ${guest} , You are invited to Dinner at my Home`)));

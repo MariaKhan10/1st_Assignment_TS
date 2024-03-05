@@ -7,4 +7,4 @@ var canNotAttend = "Aqsa";
 console.log(canNotAttend + " " + "can not make it for Dinner");
 var newGuest = "Maryam";
 guestArr[guestArr.indexOf(canNotAttend)] = newGuest;
-guestArr.map(function (guest) { return (console.log("Dear ".concat(guest, " , You are invited to Dinner at my Home"))); });
+guestArr.forEach(function (guest) { return (console.log("Dear ".concat(guest, " , You are invited to Dinner at my Home"))); });
