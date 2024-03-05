@@ -2,5 +2,11 @@
 
 
 
-let transportation = ["Land Cruiser", "Fortuner", "Honda Civic"];
-transportation.map((vehicle) => console.log(`I would like to own a ${vehicle}.`));
+
+let fav_transportation : string[] = ["Land Cruiser", "Fortuner", "Honda Civic"];
+fav_transportation.forEach(vehicle => console.log(`I would like to own a ${vehicle}`))
+
+
+
+
+
