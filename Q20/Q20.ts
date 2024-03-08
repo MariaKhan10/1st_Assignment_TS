@@ -6,6 +6,8 @@
 
 let favoriteCities : string[] = ["Dubai", "Italy", "Skardu", "Swat", "NewYork"];
 
+console.log('Cities I would like to visit: ')
+
 favoriteCities.forEach((city, index) => {
     console.log(`City ${index + 1}: ${city}`);
 });
