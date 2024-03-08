@@ -22,7 +22,7 @@ while(guestArr.length > 2 ){
     console.log(`Dear ${removedGuest}, Sorry you are no longer invited for Dinner`);
 }
 
-guestArr.map((guest) => 
+guestArr.forEach((guest) => 
 console.log(`Dear ${guest}, You re still invited for dinner`));
 
 

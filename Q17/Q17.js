@@ -10,7 +10,7 @@ while (guestArr.length > 2) {
     var removedGuest = guestArr.pop();
     console.log("Dear ".concat(removedGuest, ", Sorry you are no longer invited for Dinner"));
 }
-guestArr.map(function (guest) {
+guestArr.forEach(function (guest) {
     return console.log("Dear ".concat(guest, ", You re still invited for dinner"));
 });
 guestArr.pop();
