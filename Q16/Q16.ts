@@ -46,5 +46,5 @@ console.log(guestArr);
 
 // Print a new set of invitation messages, one for each person in your list.
 
-guestArr.map((guest) => 
+guestArr.forEach((guest) => 
 console.log(`Dear ${guest}, You are cordially invited to a dinner party at my place.`))

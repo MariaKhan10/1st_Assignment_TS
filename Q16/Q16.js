@@ -21,6 +21,6 @@ console.log(guestArr);
 guestArr.push("Iqra");
 console.log(guestArr);
 // Print a new set of invitation messages, one for each person in your list.
-guestArr.map(function (guest) {
+guestArr.forEach(function (guest) {
     return console.log("Dear ".concat(guest, ", You are cordially invited to a dinner party at my place."));
 });
