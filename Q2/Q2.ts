@@ -2,5 +2,5 @@
 
 
 
-let personName  : string = "Eric"
+let personName  : string = "Maria"
 console.log(`Hello ${personName},would you like to learn some Python today?`)
