@@ -84,5 +84,5 @@ console.log("Sort in alphabetical order:" , placestoVisit.sort());
 
 
 // 10• Sort to change your array so it’s stored in reverse alphabetical order. Print the list to show that its order has changed
-console.log("Sort in reverse alphabetical order:", placestoVisit.sort((a,b) => b.localeCompare(a)));
+console.log("Sort in reverse alphabetical order:", placestoVisit.reverse());
 
